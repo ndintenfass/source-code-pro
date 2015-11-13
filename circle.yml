@@ -3,8 +3,8 @@ dependencies:
     - wget http://download.macromedia.com/pub/developer/opentype/FDK.2.5.64655/FDK-2.5.64655-LINUX.zip
     - unzip FDK-2.5.64655-LINUX.zip
     - sudo ./FDK/FinishInstallLinux
-    - echo $PATH
-    - pwd
+    - export FOO="bar"
+    - echo $FOO
 test:
   override:
     - ./build.sh
