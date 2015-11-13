@@ -1,7 +1,7 @@
 machine:
   environment:
-    FDK_EXE="/home/ubuntu/bin/FDK/Tools/linux"
-    PATH=${PATH}:"/home/ubuntu/bin/FDK/Tools/linux"
+    FDK_EXE: "/home/ubuntu/bin/FDK/Tools/linux"
+    PATH: ${PATH}:"/home/ubuntu/bin/FDK/Tools/linux"
 
 dependencies:
   override:
