@@ -1,3 +1,7 @@
+dependencies:
+  override:
+    - git clone https://github.com/behdad/fonttools.git
+    - python ./fonttools/setup.py install
 test:
   override:
     - ./build.sh
