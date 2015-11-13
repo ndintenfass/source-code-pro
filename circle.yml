@@ -10,4 +10,5 @@ dependencies:
     - sudo ./FDK/FinishInstallLinux
 test:
   override:
+    - echo $PATH
     - ./build.sh
