@@ -1,7 +1,8 @@
 dependencies:
   override:
-    - git clone https://github.com/behdad/fonttools.git
-    - python ./fonttools/setup.py install
+    - wget http://download.macromedia.com/pub/developer/opentype/FDK.2.5.64655/FDK-2.5.64655-LINUX.zip
+    - unzip FDK-2.5.64655-LINUX.zip
+    - sudo ./FDK/FinishInstallLinux
 test:
   override:
     - ./build.sh
