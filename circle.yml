@@ -2,7 +2,9 @@ dependencies:
   override:
     - wget http://download.macromedia.com/pub/developer/opentype/FDK.2.5.64655/FDK-2.5.64655-LINUX.zip
     - unzip FDK-2.5.64655-LINUX.zip
+    - which makeotf
     - sudo ./FDK/FinishInstallLinux
+    - which makeotf
 test:
   override:
     - ./build.sh
